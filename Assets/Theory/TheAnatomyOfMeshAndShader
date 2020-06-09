@@ -1,0 +1,4 @@
+﻿mesh is stored as a series of arrays that store all the information
+about the vertices and normals.
+
+= Vertex Array + Normal Array + UV Array (How a texture is wrapped onto a model) + Triangle Array (each individual polygon triangle)
