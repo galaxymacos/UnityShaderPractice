@@ -13,3 +13,6 @@ Vertex lit: Gouraud shading,
 Pixel lit: Phong
 
 Lambert Lighting doesn't support specular lighting
+
+Metallic: The quality of the surface
+Specular: The light being reflected on the surface
