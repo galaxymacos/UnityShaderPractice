@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rim Lighting
-  m_Shader: {fileID: 4800000, guid: 6e68524ffa927444eb486fb6f80c26c5, type: 3}
+  m_Name: MetallicReflectiveBumpMappedSurface
+  m_Shader: {fileID: 4800000, guid: 7dd86fcad599f1243aaffe2a75084c62, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 88db30ef7ff5e1b4497169a2ef60f5d3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -95,6 +95,9 @@ Material:
     - _ZWrite: 1
     - _myBright: 0.1
     - _mySlider: 3.61
+    - _myX: 1.1
+    - _myY: 1
+    - _myZ: 0.1
     - _range: 0.3
     m_Colors:
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
