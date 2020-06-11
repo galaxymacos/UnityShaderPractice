@@ -11,3 +11,5 @@ Calculate Dot Product in cg: half dotp = dot(IN.viewDir, o.Normal)
 Vertex Versus Pixel Lighting
 Vertex lit: Gouraud shading, 
 Pixel lit: Phong
+
+Lambert Lighting doesn't support specular lighting

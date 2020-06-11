@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 2017983147}
   - component: {fileID: 2017983146}
   m_Layer: 0
-  m_Name: Zombunny (7)
+  m_Name: Bunny_StripeAndRim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -920,7 +920,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc233bef9e4b9e14c84add49495ea37a, type: 2}
+  - {fileID: 2100000, guid: 6dd0bb44845340747a6eaaaafc25fc9c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
