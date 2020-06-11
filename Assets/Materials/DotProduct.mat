@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: lambert2
-  m_Shader: {fileID: 4800000, guid: f0569ca484adde741a3e418fb5313b04, type: 3}
+  m_Name: DotProduct
+  m_Shader: {fileID: 4800000, guid: 1b23712258165ff409c9c0e9bfc6ab9b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,16 +55,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _cubeMap:
+        m_Texture: {fileID: 8900000, guid: 04bfe9229de6de8429dbd8c69b781954, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _myBump:
         m_Texture: {fileID: 2800000, guid: 3f6592c852cb9c64f868afa2fb2464a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myCube:
-        m_Texture: {fileID: 8900000, guid: 04bfe9229de6de8429dbd8c69b781954, type: 3}
+        m_Texture: {fileID: 8900000, guid: de78f930088fc194290da7400c89bfb5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myDiffuse:
         m_Texture: {fileID: 2800000, guid: 88db30ef7ff5e1b4497169a2ef60f5d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalMap:
+        m_Texture: {fileID: 2800000, guid: 3f6592c852cb9c64f868afa2fb2464a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -85,7 +93,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _myBright: 0.1
-    - _mySlider: 3.28
+    - _mySlider: 3.61
+    - _range: 0.3
     m_Colors:
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
