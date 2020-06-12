@@ -16,3 +16,6 @@ Lambert Lighting doesn't support specular lighting
 
 Metallic: The quality of the surface
 Specular: The light being reflected on the surface
+
+What blend does is that it processes the pixel in the shader and the pixel in the z buffer, and then 
+mix them together
