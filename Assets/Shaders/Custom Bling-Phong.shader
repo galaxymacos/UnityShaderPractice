@@ -1,4 +1,4 @@
-﻿Shader "Custom/BasicBling"{
+﻿Shader "Custom/CustomBlinn"{
     Properties{
         _Colour("Colour", Color) = (1,1,1,1)
     }
@@ -24,7 +24,9 @@
             float spec = pow(nh, 48.0);
             
             half4 c;
-            c.rgb = (s.Albedo * _LightColor0.rgb * diff + _LightColor0.rgb * spec)*atten;
+            // c.rgb = (s.Albedo * _LightColor0.rgb * diff + _LightColor0.rgb * spec)*atten;
+            // Move the shader in real time
+            c.rgb = (s.Albedo * _LightColor0.rgb * diff + _LightColor0.rgb * spec)*atten*_SinTime;
             c.a = s.Alpha;
             return c;
             

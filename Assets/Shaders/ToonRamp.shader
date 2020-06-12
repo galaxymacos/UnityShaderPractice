@@ -37,7 +37,7 @@
             // o.Albedo = _Colour.rgb;
             // use ramp image to the surface albedo 
             // use normal and viewDir to determine the uvs
-            float diff = dot(o.Normal, viewDir);
+            float diff = dot(o.Normal, IN.viewDir);
             float h = diff*0.5+0.5;
             float2 rh = h;
             o.Albedo = tex2D(_RampTex, rh).rgb;
