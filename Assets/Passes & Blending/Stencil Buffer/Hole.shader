@@ -13,9 +13,9 @@
         ZWrite off  // 
         Stencil
         {
-            Ref 1
-            Comp always
-            Pass replace    // one draw call
+            Ref 1   // Before the pixel goes in the stencil buffer, it first checks what's on the stencil buffer
+            Comp always // Always write to the stencil buffer
+            Pass replace    // one draw call, replace what's already on the stencil buffer
         }
     
        CGPROGRAM
