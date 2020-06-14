@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_VFDiffuse
-  m_Shader: {fileID: 4800000, guid: ba5fe428cf8b9bb47befc6eeb4985d95, type: 3}
+  m_Name: Unlit_VFDiffuse Shadow
+  m_Shader: {fileID: 4800000, guid: cc2ecdef4a4a2ee47bcffbe7ad38e8cc, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

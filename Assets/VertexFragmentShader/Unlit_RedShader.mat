@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_VFDiffuse
-  m_Shader: {fileID: 4800000, guid: ba5fe428cf8b9bb47befc6eeb4985d95, type: 3}
+  m_Name: Unlit_RedShader
+  m_Shader: {fileID: 4800000, guid: 181bb25083acf7d47972459da6961e60, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,8 +20,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d95caad5fff8840468beeef14474c900, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
