@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BasicTexureBlend
-  m_Shader: {fileID: 4800000, guid: 78cac6ce08f80ba478780896d072c670, type: 3}
-  m_ShaderKeywords: _SHOWDECAL_ON
+  m_Name: Unlit_ColorVF
+  m_Shader: {fileID: 4800000, guid: 7d348c3e63f898d4b9abe250f4860d40, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,14 +19,9 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _DecalTex:
-        m_Texture: {fileID: 2800000, guid: fb3f3fc613e89124dad90697a53b2062, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d95caad5fff8840468beeef14474c900, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ShowDecal: 1
+    m_Floats: []
     m_Colors: []
