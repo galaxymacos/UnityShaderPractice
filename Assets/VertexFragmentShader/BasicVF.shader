@@ -1,11 +1,11 @@
-﻿Shader "Unlit/BasicVF"
+Shader "Unlit/BasicVF"
 {
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
     }
     SubShader
-    {
+    { 
         Tags { "RenderType"="Opaque" }
         LOD 100
 

@@ -3,11 +3,11 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _Color("Color", Color) = (1,0,0,1)
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
-        LOD 100
 
         Pass
         {
@@ -30,6 +30,7 @@
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            float4 _Color;
 
             v2f vert (appdata v)    
             {
@@ -43,10 +44,10 @@
             fixed4 frag (v2f i) : SV_Target // change the pixel info on the screen (Because the pixel position is relative to the screen, if you move, the color you see will change to)
             {
                 fixed4 col = i.color;
-                fixed4 newColor = (1,0,0,1);
-                newColor.r = (i.vertex.x+500)/1000;
-                newColor.g = (i.vertex.y+500)/1000;
-                return newColor;
+                col = fixed4(1,0,0,1);
+               // newColor.r = (i.vertex.x+500)/1000;
+              //  newColor.g = (i.vertex.y+500)/1000;
+                return col;
                 // return i.vertex.x/1000;
                 // return col;
             }
