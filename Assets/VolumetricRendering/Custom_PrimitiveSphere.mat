@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Plasma
-  m_Shader: {fileID: 4800000, guid: e7bdc4f053e62c245aad09d4a293033e, type: 3}
+  m_Name: Custom_PrimitiveSphere
+  m_Shader: {fileID: 4800000, guid: 8e3fed679bb4751479ae1afc4c4549ba, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,11 +19,5 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
-    m_Floats:
-    - _Scale1: 0.3
-    - _Scale2: 0.5
-    - _Scale3: 0.7
-    - _Scale4: 0.3
-    - _Speed: 27
-    m_Colors:
-    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    m_Floats: []
+    m_Colors: []
